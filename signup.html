@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Sign Up — Fidboost</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <span class="brand-text">Fidboost</span>
+      </a>
+      <nav class="menu">
+        <a href="index.html">Home</a>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section auth">
+    <div class="container auth-wrap">
+      <div class="auth-copy">
+        <h1>Create your account</h1>
+        <p class="lead">Sign up to place boosting orders and track performance (pending → processing → completed).</p>
+        <ul class="auth-points">
+          <li><i class="fa-regular fa-circle-check"></i> Email verification enabled</li>
+          <li><i class="fa-regular fa-circle-check"></i> Order history dashboard</li>
+          <li><i class="fa-regular fa-circle-check"></i> Secure login</li>
+        </ul>
+      </div>
+
+      <form class="auth-card" action="#" method="post">
+        <div class="field">
+          <label>Full name</label>
+          <input type="text" placeholder="John Doe" required>
+        </div>
+        <div class="field">
+          <label>Email address</label>
+          <input type="email" placeholder="you@example.com" required>
+        </div>
+        <div class="field">
+          <label>Password</label>
+          <input type="password" placeholder="••••••••" required minlength="6">
+        </div>
+        <div class="field">
+          <label>Confirm password</label>
+          <input type="password" placeholder="••••••••" required minlength="6">
+        </div>
+
+        <button class="btn-gold" type="submit">Create account</button>
+
+        <p class="auth-note">
+          By creating an account, you agree to our Terms & Privacy.
+          <br/>Already have an account? <a href="#" class="link">Log in</a>
+        </p>
+      </form>
+    </div>
+  </section>
+
+  <a class="wa" href="https://wa.me/2348122766347" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+</body>
+</html>
